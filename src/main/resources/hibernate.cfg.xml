@@ -22,6 +22,7 @@
 		<property name="hbm2ddl.auto">create</property>
 		<!-- dbcp connection pool configuration -->
 
+		<mapping class="testHibernate.Category" />
 		<mapping class="testHibernate.Product" />
 	</session-factory>
 </hibernate-configuration>
