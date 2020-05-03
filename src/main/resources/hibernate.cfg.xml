@@ -21,8 +21,10 @@
 		<!-- Drop and re-create the database schema on startup -->
 		<property name="hbm2ddl.auto">create</property>
 		<!-- dbcp connection pool configuration -->
-
+		<mapping class="testHibernate.License" />
+		<mapping class="testHibernate.Person" />
+<!-- 
 		<mapping class="testHibernate.Category" />
-		<mapping class="testHibernate.Product" />
+		<mapping class="testHibernate.Product" /> -->
 	</session-factory>
 </hibernate-configuration>
